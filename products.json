@@ -4,7 +4,7 @@
       "sys": { "id": "1" },
       "fields": {
         "title": "OptiFine Cape",
-        "price": 10,
+        "price": 10 Real,
         "image": { "fields": { "file": { "url": "./images/product-1.jpeg" } } }
       }
     },
