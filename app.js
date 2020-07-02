@@ -45,7 +45,7 @@ class UI{
      <article class="product">
                <div class="img-container">
                    <img src=${product.image} alt="product" class="product-img">
-                   <button class="bag-btn" data-id=R${product.id}>
+                   <button class="bag-btn" data-id=${product.id}>
                        <i class="fas fa-shopping-cart"></i>
                        add to cart
                    </button>
