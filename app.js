@@ -45,7 +45,7 @@ class UI{
      <article class="product">
                <div class="img-container">
                    <img src=${product.image} alt="product" class="product-img">
-                   <button class="bag-btn" data-id=${product.id}>
+                   <button class="bag-btn" data-id=R${product.id}>
                        <i class="fas fa-shopping-cart"></i>
                        add to cart
                    </button>
@@ -107,7 +107,7 @@ class UI{
                       <div>
                           <h4>${item.title}</h4>
                           <h5>$${item.price}</h5>
-                          <span class="remove-item" data-id=${item.id}>remove</span>
+                          <span class="remove-item" data-id=${item.id}>remover</span>
                       </div>
                       <div>
                           <i class="fas fa-chevron-up" data-id=${item.id}></i>
@@ -192,7 +192,7 @@ class UI{
       Storage.saveCart(cart);
       let button = this.getSingleButton(id);
       button.disabled = false;
-      button.innerHTML = `<i class= "fas fa-shopping-cart"></i>add to cart`;
+      button.innerHTML = `<i class= "fas fa-shopping-cart"></Adicionar ao carrinho`;
   }
   getSingleButton(id){
      return buttonsDOM.find(button => button.dataset.id === id);
