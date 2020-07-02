@@ -3,8 +3,8 @@
     {
       "sys": { "id": "1" },
       "fields": {
-        "title": "Galaxy S10 5G",
-        "price": 910.99,
+        "title": "OptiFine Cape",
+        "price": 10,
         "image": { "fields": { "file": { "url": "./images/product-1.jpeg" } } }
       }
     },
